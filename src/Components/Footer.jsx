@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Footer extends Component {
-    constructor(props){
-        super(props)
-    }
+  constructor(props) {
+    super(props);
+  }
 
   render() {
     return (
-        <footer>
+      <footer>
         <div>
-          <p>Copyright 2020</p>
+          <p>Copyright {this.props.date.getFullYear()}</p>
         </div>
       </footer>
-    )
+    );
   }
 }
