@@ -14,6 +14,7 @@ export default class Header extends Component {
     return (
       <header>
         <div>
+        <h2>the class Components</h2>
           <h1>{welcome}</h1>
           <h2>{title}</h2>
           <h3>{subtitle}</h3>
